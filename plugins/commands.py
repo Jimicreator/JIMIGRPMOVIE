@@ -80,7 +80,7 @@ async def start(bot, message):
         caption=Translation.START_TEXT.format(
                 message.from_user.mention, DEV_USERNAME),
         reply_markup=InlineKeyboardMarkup([[
-              InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/donlee_robot?startgroup=true')
+              InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/Jimi_Moviebot?startgroup=true')
               ],[
               InlineKeyboardButton(GROUP, url=HAAAAAAAAA),
               InlineKeyboardButton(CHANNEL, url=CHANNEL_LINK)
@@ -142,7 +142,7 @@ async def about(bot, message):
                              ),
                          InlineKeyboardButton
                              (
-                                 "Dev 🤠", callback_data="devmuhammed"
+                                 "Dev 🤠", callback_data=""
                              )
                     ],
                     [
@@ -171,24 +171,23 @@ async def sub(bot, message):
                     [
                          InlineKeyboardButton
                              (                                 
-                                 "📣Group", url="t.me/mo_tech_group"
+                                 "📣Group", url="t.me/jimibots_grp"
                              ),
                          InlineKeyboardButton
                              (
-                                 "📢Channel", url="t.me/mo_tech_yt"
+                                 "📢Channel", url="t.me/Jimi_Bots"
                              )
                     ],
                     [
                          InlineKeyboardButton
                              (
-                                 "😟 Build a New Bot 😟", url="https://youtu.be/NrbMc93aCzA"
+                                 "😟 Build a New Bot 😟", url=t.me/jimibots_grp"
                              )
                     ],
                     [
-                         InlineKeyboardButton
-                             (
-                                 "💥Subscribe youtube Channel💥", url="https://www.youtube.com/c/MoTech_YT"
-                             )
+                         
+             
+                                
                     ],
                     [
                          InlineKeyboardButton
